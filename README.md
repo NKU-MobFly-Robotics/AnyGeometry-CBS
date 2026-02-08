@@ -1,9 +1,19 @@
 # AnyGeometry-CBS
 
-**提示：** 本代码库是论文《AnyGeometry-CBS: Any Geometry Conflict-Based Search for Multi-Agent Path Finding》的官方实现。
+Any Geometry Conflict-Based Search for Multi-Agent Path Finding
 
-**代码库状态：** :hourglass_flowing_sand: 论文正在评审中，代码将在论文被接收后立即整理并公开。感谢您的理解与耐心。
+---
 
-**Note:** This is the official implementation for the paper "AnyGeometry-CBS: Any Geometry Conflict-Based Search for Multi-Agent Path Finding".
+### 🇬🇧 About
 
-**Repository Status:** :hourglass_flowing_sand: The paper is currently under review. The code will be cleaned up and released publicly as soon as the paper is accepted. Thank you for your understanding and patience.
+Status: Code preparation in progress.
+
+We are currently organizing and cleaning the code. The full source code will be made available here shortly. 
+
+### 🇨🇳 关于
+
+当前状态： 代码整理中。
+
+我们正在对代码进行整理，很快将在此处公开。
+
+---
