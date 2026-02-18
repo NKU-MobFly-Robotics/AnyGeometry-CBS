@@ -37,7 +37,7 @@ We are currently organizing and cleaning the code. The full source code will be 
 ```bash
 # 1. Clone the repository / 克隆仓库
 git clone https://github.com/NKU-MobFly-Robotics/AnyGeometry-CBS.git
-cd any_geometry_cbs
+cd AnyGeometry-CBS
 
 # 2. Build with CMake / 使用 CMake 编译
 mkdir build && cd build
