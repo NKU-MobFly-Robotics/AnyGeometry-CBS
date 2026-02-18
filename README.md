@@ -1,36 +1,40 @@
-AnyGeometry-CBS
-Any Geometry Conflict-Based Search for Multi-Agent Path Finding
-ℹ️ About / 项目简介
-EN: AG-CBS is a framework designed for Multi-Agent Path Finding (MAPF) with arbitrary polygonal shapes. Unlike traditional grid-based or point-agent methods, AG-CBS handles complex geometries to ensure collision-free paths in more realistic environments.
+# AnyGeometry-CBS
 
-CN: AG-CBS 是一个专为具有任意多边形形状智能体设计的多智能体路径规划（MAPF）框架。相比传统的基于栅格或质点模型的算法，AG-CBS 能够处理复杂的几何形状，确保在更真实的场景中实现无碰撞路径规划。
+**Any Geometry Conflict-Based Search for Multi-Agent Path Finding**
 
-🚦 Status / 状态
-🛠 Code preparation in progress / 代码准备中
+## ℹ️ About / 项目简介
+
+**EN:**  
+AG-CBS is a framework designed for Multi-Agent Path Finding (MAPF) with arbitrary polygonal shapes. Unlike traditional grid-based or point-agent methods, AG-CBS handles complex geometries to ensure collision-free paths in more realistic environments.
+
+**CN:**  
+AG-CBS 是一个专为具有任意多边形形状智能体设计的多智能体路径规划（MAPF）框架。相比传统的基于栅格或质点模型的算法，AG-CBS 能够处理复杂的几何形状，确保在更真实的场景中实现无碰撞路径规划。
+
+## 🚦 Status / 状态
+
+**🛠 Code preparation in progress / 代码准备中**
 
 We are currently organizing and cleaning the code. The full source code will be made available here shortly.
 
 我们目前正在整理和优化代码，完整源代码将于近期在此发布。
 
-🛠️ Installation / 安装指南
-Prerequisites / 环境依赖
+## 🛠️ Installation / 安装指南
+
+### Prerequisites / 环境依赖
+
 在编译之前，请确保您的系统已安装以下依赖：
 
-C++ Compiler: Support for C++17 or higher.
+*   **C++ Compiler**: Support for C++17 or higher.
+*   **CMake**: Version 3.10 or higher.
+*   **Eigen3**: For geometric calculations.
+*   **Boost**: Specifically the `program_options` component.
+*   **YAML-CPP**: For parsing map and configuration files.
 
-CMake: Version 3.10 or higher.
+### Build Instructions / 编译步骤
 
-Eigen3: For geometric calculations.
-
-Boost: Specifically the program_options component.
-
-YAML-CPP: For parsing map and configuration files.
-
-Build Instructions / 编译步骤
 请在终端中执行以下命令：
 
-Bash
-
+```bash
 # 1. Clone the repository / 克隆仓库
 git clone https://github.com/yourusername/any_geometry_cbs.git
 cd any_geometry_cbs
@@ -39,24 +43,37 @@ cd any_geometry_cbs
 mkdir build && cd build
 cmake ..
 make -j$(nproc)
-🚀 Usage / 运行示例
-EN: You can test the planners using the provided warehouse map. Please ensure the output directory ../src/output/ exists before running.
+```
 
-CN: 你可以使用内置的仓库地图进行测试。运行前请确保输出目录 ../src/output/ 已存在。
+## 🚀 Usage / 运行示例
 
-Running AG-CBS:
-Bash
+**EN:**  
+You can test the planners using the provided warehouse map. Please ensure the output directory `../src/output/` exists before running.
 
+**CN:**  
+你可以使用内置的仓库地图进行测试。运行前请确保输出目录 `../src/output/` 已存在。
+
+### Running AG-CBS:
+
+```bash
 ./AG_CBS -i ../src/maps/warehouse_agent6_3.yaml -o ../src/output/result1.yaml
-Running AG-ECBS:
-Bash
+```
 
+### Running AG-ECBS:
+
+```bash
 ./AG_ECBS -i ../src/maps/warehouse_agent6_3.yaml -o ../src/output/result2.yaml
-🤝 Acknowledgments / 致谢
-EN: This implementation incorporates and extends parts of the libMultiRobotPlanning library. We thank the original authors for their contributions to the MAPF community.
+```
 
-CN: 本项目参考并扩展了 libMultiRobotPlanning 库的部分功能。感谢原作者对 MAPF 社区的贡献。
+## 🤝 Acknowledgments / 致谢
 
-📄 License / 开源协议
-This project is licensed under the MIT License. See the LICENSE file for details.
+**EN:**  
+This implementation incorporates and extends parts of the [libMultiRobotPlanning](https://github.com/whoenig/libMultiRobotPlanning) library. We thank the original authors for their contributions to the MAPF community.
+
+**CN:**  
+本项目参考并扩展了 libMultiRobotPlanning 库的部分功能。感谢原作者对 MAPF 社区的贡献。
+
+## 📄 License / 开源协议
+
+This project is licensed under the MIT License. See the LICENSE file for details.  
 本项目采用 MIT License 开源。
