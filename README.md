@@ -2,7 +2,7 @@
 
 **Any Geometry Conflict-Based Search for Multi-Agent Path Finding**
 
-## ℹ️ About / 项目简介
+### ℹ️ About / 项目简介
 
 **EN:**  
 AG-CBS is a framework designed for Multi-Agent Path Finding (MAPF) with arbitrary shapes. Unlike traditional single grid-based or point-agent methods, AG-CBS handles complex geometries to ensure collision-free paths in more realistic environments.
@@ -17,18 +17,6 @@ AG-CBS 是一个专为具有任意形状智能体设计的多智能体路径规�
 We are currently organizing and cleaning the code. The full source code will be made available here shortly.
 
 我们目前正在整理和优化代码，完整源代码将于近期在此发布。
-
-## 🛠️ Installation / 安装指南
-
-### Prerequisites / 环境依赖
-
-在编译之前，请确保您的系统已安装以下依赖：
-
-*   **C++ Compiler**: Support for C++17 or higher.
-*   **CMake**: Version 3.10 or higher.
-*   **Eigen3**: For geometric calculations.
-*   **Boost**: Specifically the `program_options` component.
-*   **YAML-CPP**: For parsing map and configuration files.
 
 ### Build Instructions / 编译步骤
 
