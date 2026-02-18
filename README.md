@@ -33,13 +33,13 @@ You can test the planners using the provided map. Please ensure the output direc
 **CN:**  
 你可以使用内置的地图进行测试。运行前请确保输出目录 `../src/output/` 已存在。
 
-### Running AG-CBS:
+#### Running AG-CBS:
 
 ```bash
 ./AG_CBS -i ../src/maps/warehouse_agent6_3.yaml -o ../src/output/result1.yaml
 ```
 
-### Running AG-ECBS:
+#### Running AG-ECBS:
 
 ```bash
 ./AG_ECBS -i ../src/maps/warehouse_agent6_3.yaml -o ../src/output/result2.yaml
