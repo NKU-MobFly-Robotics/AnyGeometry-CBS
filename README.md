@@ -5,10 +5,10 @@
 ## ℹ️ About / 项目简介
 
 **EN:**  
-AG-CBS is a framework designed for Multi-Agent Path Finding (MAPF) with arbitrary polygonal shapes. Unlike traditional grid-based or point-agent methods, AG-CBS handles complex geometries to ensure collision-free paths in more realistic environments.
+AG-CBS is a framework designed for Multi-Agent Path Finding (MAPF) with arbitrary shapes. Unlike traditional grid-based or point-agent methods, AG-CBS handles complex geometries to ensure collision-free paths in more realistic environments.
 
 **CN:**  
-AG-CBS 是一个专为具有任意多边形形状智能体设计的多智能体路径规划（MAPF）框架。相比传统的基于栅格或质点模型的算法，AG-CBS 能够处理复杂的几何形状，确保在更真实的场景中实现无碰撞路径规划。
+AG-CBS 是一个专为具有任意形状智能体设计的多智能体路径规划（MAPF）框架。相比传统的基于栅格或质点模型的算法，AG-CBS 能够处理复杂的几何形状，确保在更真实的场景中实现无碰撞路径规划。
 
 ## 🚦 Status / 状态
 
@@ -36,13 +36,13 @@ We are currently organizing and cleaning the code. The full source code will be 
 
 ```bash
 # 1. Clone the repository / 克隆仓库
-git clone https://github.com/yourusername/any_geometry_cbs.git
+git clone https://github.com/NKU-MobFly-Robotics/AnyGeometry-CBS.git
 cd any_geometry_cbs
 
 # 2. Build with CMake / 使用 CMake 编译
 mkdir build && cd build
 cmake ..
-make -j$(nproc)
+make -j
 ```
 
 ## 🚀 Usage / 运行示例
