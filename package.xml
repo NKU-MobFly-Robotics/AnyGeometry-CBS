@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>any_geometry_cbs</name>
+  <version>1.0.0</version>
+  <description>AnyGeometry-CBS: Any Geometry Conflict-Based Search for Multi-Agent Path Finding. This package implements the algorithm presented in the ICRA 2026 paper.</description>
+
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>trajectory_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+  
+  <exec_depend>python3</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+</package>

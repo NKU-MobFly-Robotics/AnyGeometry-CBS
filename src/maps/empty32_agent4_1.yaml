@@ -1,0 +1,34 @@
+agents:
+-   goal: [19, 4]
+    name: agent0
+    start: [4, 24]
+    shape:
+    - [0, 0]
+    - [1, 0]
+    - [0, 1]
+    - [1, 1]
+-   goal: [29, 9]
+    name: agent1
+    start: [4, 4]
+    shape:
+    - [0, 0]
+    - [1, 0]
+    - [-1, 0]
+-   goal: [29, 19]
+    name: agent2
+    start: [4, 9]
+    shape:
+    - [0, 0]
+    - [1, 0]
+    - [-1, 0]
+-   goal: [4, 4]
+    name: agent3
+    start: [4, 14]
+    shape:
+    - [0, 0]
+    - [1, 0]
+    - [0, 1]
+    - [-1, 1]
+map:
+    dimensions: [32, 32]
+    obstacles:
