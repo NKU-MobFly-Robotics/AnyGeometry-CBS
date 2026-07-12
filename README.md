@@ -25,7 +25,6 @@ AG-CBS supports arbitrary agent shapes. Below are some examples:
 - Eigen3
 - Boost (program_options)
 - yaml-cpp
-- ROS2 (ament_cmake, rclcpp)
 
 ## Build Instructions
 

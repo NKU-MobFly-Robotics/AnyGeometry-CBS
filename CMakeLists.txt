@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(any_geometry_cbs)
 
-find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(Boost COMPONENTS program_options REQUIRED)
 find_package(yaml-cpp REQUIRED)
